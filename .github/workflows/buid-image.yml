@@ -37,4 +37,4 @@ jobs:
           context: ./Dockerfiles                      # build context (repo root)
           file: Dockerfiles/Dockerfile    # path to your Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/mynginx:v1
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/test:v1
